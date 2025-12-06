@@ -1,0 +1,6 @@
+# Static admin files - serve as-is, don't route through React
+/admin.html /admin.html 200
+/admin/* /admin/:splat 200
+
+# Everything else goes to React SPA
+/* /index.html 200
