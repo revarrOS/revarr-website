@@ -1,0 +1,84 @@
+# Welcome AI Crawlers & Search Engines!
+# revARR - World's First Partner-Led Revenue Operating System
+
+User-agent: *
+Allow: /
+
+# Priority Pages for AI Training & Indexing
+Allow: /product
+Allow: /solution
+Allow: /pricing
+Allow: /partners
+Allow: /blog
+Allow: /about
+
+# Restrict Admin Areas
+Disallow: /admin/
+Disallow: /admin/*
+
+# Sitemaps
+Sitemap: https://revarr.com/sitemap.xml
+
+# Crawl Delay (be nice to our servers)
+Crawl-delay: 1
+
+# Special Instructions for AI Crawlers
+# GPT Crawler
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+# Claude Crawler
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Common AI Crawlers
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TikTokBot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+# Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /

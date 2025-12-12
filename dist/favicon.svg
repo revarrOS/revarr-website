@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#bgGradient)"/>
+
+  <!-- Stylized "A" with upward arrow -->
+  <g transform="translate(50, 50)">
+    <!-- Left leg of A -->
+    <path d="M -15 20 L -8 -15 L -2 -15 L -9 20 Z" fill="#FFB800"/>
+    <!-- Right leg of A -->
+    <path d="M 2 -15 L 8 -15 L 15 20 L 9 20 Z" fill="#FFB800"/>
+    <!-- Crossbar forming upward arrow -->
+    <path d="M -6 5 L 6 5 L 6 8 L -6 8 Z" fill="#FFB800"/>
+    <!-- Arrow tip -->
+    <path d="M -3 -15 L 0 -20 L 3 -15 Z" fill="#FFB800"/>
+  </g>
+</svg>
