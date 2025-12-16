@@ -1,0 +1,35 @@
+{
+  "name": "revARR - Partner-Led Revenue Operating System",
+  "short_name": "revARR",
+  "description": "Transform partner ecosystem chaos into predictable revenue. World's first Partner-Led Revenue Operating System.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "shortcuts": [
+    {
+      "name": "Pricing",
+      "short_name": "Pricing",
+      "description": "View revARR pricing plans",
+      "url": "/pricing",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Product",
+      "short_name": "Product",
+      "description": "Explore revARR features",
+      "url": "/product",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
